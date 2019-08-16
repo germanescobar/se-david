@@ -35,7 +35,14 @@ Storage
  DB
  Redis
  SQS
+ RabbitMQ
+  installation:
+     https://www.vultr.com/docs/how-to-install-rabbitmq-on-ubuntu-16-04-47
+  bunny docs:
+    http://rubybunny.info/articles/getting_started.html
 
+    github module Bunny
+      https://github.com/ruby-amqp/bunny/blob/master/lib/bunny/consumer.rb
 Background Jobs:
  DelayJobs
    Can be installed in rails applications by delay_jobs_active_record. That means that you will depend on
